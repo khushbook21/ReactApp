@@ -31,7 +31,7 @@ const Login = () => {
         <button style={{ margin: "10px" }} type="submit">Login</button>
       </form>
 
-      <h2 className="pt-5">List in react js</h2>
+      <h2 className="pt-5" style={{ padding: '10px' }}>List in react js</h2>
     </div>
   );
 
