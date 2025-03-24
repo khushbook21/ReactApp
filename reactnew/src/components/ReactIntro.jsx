@@ -20,9 +20,7 @@ const Login = () => {
           type="password"
           placeholder="Password"
           value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        
+          onChange={(e) => setPassword(e.target.value)} />
         <button style={{ margin: "10px" }} type="submit">Login</button>
       </form>
       <h2 className="pt-5" style={{ padding: '20px' }}> My list are decided </h2>
